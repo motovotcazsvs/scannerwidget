@@ -26,6 +26,10 @@ private:
 private slots:
     void timeOut();
 
+    void on_lineEdit_textChanged(const QString &arg1);
+
+    void on_pushButton_clicked();
+
 protected:
    virtual void keyPressEvent(QKeyEvent *event);
    virtual void keyReleaseEvent(QKeyEvent *event);
